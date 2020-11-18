@@ -1,0 +1,151 @@
+body{
+  margin: 0%;
+  padding: 2rem;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.parent {
+  z-index: 1;
+  height: 20%;
+  width: 100%;
+  padding-top: 1rem;
+}
+
+.leftImg {
+  position: relative;
+  z-index: 3;
+  left: 0rem;
+  top: 0rem;
+  height: 5rem;
+  width: 15rem;
+}
+
+.rightImg {
+  position: relative;
+  z-index: 2;
+  height: 2rem;
+  width: 2rem;
+  left: 90%;
+  bottom: 3rem;
+}
+
+.fitness {
+  position: relative;
+  left: 2rem;
+  bottom: 25rem;
+  color: aqua;
+  width: 5rem;
+}
+
+.redeemed {
+  position: relative;
+  left: 2rem;
+  bottom: 25rem;
+  color: aliceblue;
+  width: 5rem;
+}
+
+.payPerUse {
+  color: aquamarine;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-size: 1rem;
+  position: relative;
+  left: 2rem;
+  bottom: 20rem;
+  width: 15rem;
+}
+
+.creators {
+  text-align: center;
+          
+}
+      
+.aboutFitness {
+  text-align: center;
+  color: aquamarine
+}
+      
+.customer{
+  background-color: burlywood;
+  z-index: 5;
+}
+      
+.customer img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+      
+.leftArrow {
+  z-index: 6;
+  position: relative;
+  left: 2rem;
+  bottom:12rem;
+  width: 8rem;
+}
+      
+.rightArrow {
+  z-index: 7;
+  position: relative;
+  left: 85%;
+  bottom:20rem;
+  width: 8rem;
+}
+      
+.custInfo {
+  background-color: aqua;
+}
+      
+.custInfo img {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+      
+.info {
+  text-align: center;
+  color: aliceblue;
+}
+      
+.custName {
+  text-align: center;
+  color: aliceblue;
+}
